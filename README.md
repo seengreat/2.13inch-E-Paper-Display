@@ -1,11 +1,11 @@
 2.13inch E-Paper Display from seengreat:www.seengreat.com
- =======================================
+=================================================================
 # Instructions
 ## Product Overview
  This product is a 2.13 inch E-Ink display expansion module. It is designed based on Raspberry Pi 40PIN extension header and is applicable to Raspberry Pi series motherboards. We provide the C and python demo codes of Raspberry Pi, reserve SPI control interfaces to facilitate connect to Arduino, STM32 and other control boards. We also provide Arduino and STM32 demo codes, which can draw dots, lines, rectangles and circles, and display English number characters.<br>
 ## Product parameters
-|-----------|-------------------------------|
 |Size	|65mm(Length)*30mm(width)|
+|-----------|-------------------------------|
 |Pixels|	122*250|
 |Display Color|	monochrome|
 |Voltage Translator|	TXS0108EPWR|
@@ -20,8 +20,8 @@
 ## Raspberry Pi demo codes usage
 ### Hardware interface configuration description
 The sample program in the Raspberry Pi motherboard uses the wiringPi pin definitions. The definition of the connection with the Raspberry Pi motherboard is shown in the following table：<br>
-|----------------------|----------------------|-----------|----------|
 |E-Ink display 	|Pin function	|BCM	|WiringPi|
+|----------------------|----------------------|-----------|----------|
 |VCC|	5V|	3.3V|	3.3V|
 |GND|	GND|	GND|	GND|
 |BUSY|	P5|	24|	5|
@@ -90,8 +90,8 @@ python3 gui_demo.py<br>
 After entering the above command, you can observe the E-Ink display.<br>
 ## Arduino Demo Codes Usage
 ### Hardware interface configuration description
-|----------------------|--------|
 |E-Ink display	|Arduino|
+|----------------------|--------|
 |VCC|	3.3V|
 |GND|	GND|
 |CS|	D53|
@@ -104,8 +104,8 @@ After entering the above command, you can observe the E-Ink display.<br>
 Open 2.13inch E-Paper Display\demo codes\arduino-mega\2inch13_epaper with Arduino IED Click Verify to verify the project file, and then transfer it to the module to observe the E-Ink display.<br>
 ## STM32 Demo Codes Usage
 ### Hardware interface configuration description
-|----------------------|-------|
 |E-Ink display|	STM32|
+|----------------------|-------|
 |VCC|	3.3V|
 |GND|	GND|
 |CS|	PB12|
