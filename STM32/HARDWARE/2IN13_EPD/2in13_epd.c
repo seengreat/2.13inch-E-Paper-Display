@@ -1,6 +1,6 @@
 /***************************************************************************************
  * Project  :
- * Experimental Platform :STM32F103C8T6 + RC522 RFID HAT
+ * Experimental Platform :STM32F103C8T6 + 2.13inch E-Paper
  * Hardware Connection :STM32F103 -> 2.13inch E-Paper
  *			PB12 --> CS
  *			PB13 --> CLK
